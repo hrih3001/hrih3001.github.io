@@ -1,0 +1,732 @@
+@import 'base/base';
+@import 'fonts';
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.header {
+    height: 700px;
+    background-image: url('./images/Background.png');
+    padding: 40px;
+}
+.name-dreamshare {
+    margin-top: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.name {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.registration {
+    display: flex;
+    margin-right: 40px;
+}
+.registration_button {
+    width: 90px;
+    height: 36px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-log {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registration_sign__active {
+    border: 2px solid #FFFFFF; 
+}
+.registration_button:hover {
+    border: 2px solid #FFFFFF; 
+}
+.main-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F7F3F2;
+    margin-bottom: 33px;
+}
+.search-partner {
+    width: 225px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find-partner {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.dreamshare {
+    margin: 89px 0 92px;
+}
+.dreamshare-works {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 35px;
+}
+.dreamshare-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.dreamshare-left {
+    width: 300px;
+    height: 400px;
+    padding: 220px 25px 21px 25px;
+}
+.dreamshare-l {
+    background-image: url('./images/Step1.png');
+}
+.dreamshare-center {
+    @extend .dreamshare-left;
+    padding-top: 250px;
+    background-image: url('./images/Step2.png');
+}
+.dreamshare-right {
+    @extend .dreamshare-left;
+    background-image: url('./images/Step3.png');
+}
+.step {
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background: #FF4E50;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.step-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 21px 0 28px;
+}
+.step-head-2 {
+    margin: 25px 0 20px;
+}
+.step-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+}
+.partner-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+}
+.partner-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.partner-box1 {
+    width: 221px;
+    margin-bottom: 43px;
+}
+.partner-image1 {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.image1 {
+    background-image: url('./images/Avatar1.png');
+}
+.partner-image2 {
+    @extend .partner-image1;
+    background-image: url('./images/Avatar2.png');
+}
+.partner-image3 {
+    @extend .partner-image1;
+    background-image: url('./images/Avatar3.png');
+}
+.partner-image4 {
+    @extend .partner-image1;
+    background-image: url('./images/Avatar4.png');
+}
+.partner-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #444444;
+    margin: 19px 0 22px;
+}
+.partner-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+}
+.other-partner {
+    display: flex;
+    justify-content: center;
+}
+.partner-button {
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FF4E50;
+}
+.holiday {
+    padding: 89px 0 70px;
+}
+.ideas {
+    @extend .partner-head;
+    margin-bottom: 35px;
+}
+.activity-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.activity-center {
+    @extend .activity-top;
+    margin-bottom: 20px;
+}
+.activity-bottom {
+    @extend .activity-top;
+}
+.activity-common {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-common {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.top-left {
+    background-image: url('./images/Sport.png');
+    width: 300px;
+}
+.top-center {
+    background-image: url('./images/Healath.png');
+    width: 300px;
+}
+.top-right {
+    background-image: url('./images/Extreme.png');
+    width: 300px;
+    padding: 0 56px 0 57px;
+}
+.center-left {
+    background-image: url('./images/Games.png');
+    width: 300px;
+}
+.center-right {
+    background-image: url('./images/Culture.png');
+    width: 620px;
+}
+.bottom-left {
+    background-image: url('./images/Culture1.png');
+    width: 620px;
+}
+.bottom-right {
+    background-image: url('./images/Games1.png');
+    width: 300px;
+}
+.holiday-head {
+    @extend .partner-head;
+}
+.holiday-interest {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin: 55px 0 25px;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 99px;
+}
+.search-text {
+    width: 299px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999999;
+    padding-left: 14.5px;
+}
+.search-button {
+    width: 172.13px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #FF4E50;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+}
+.border {
+    border-top: 2px solid #FF4E50;
+}
+.footer {
+    padding: 39px 0 36px;   
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.company-name {
+    width: 25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+}
+.company-information {
+    width: 25%;
+    padding-left: 5px;
+}
+.company-partner {
+    width: 25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    padding-left: 10px;
+}
+.design {
+    width: 25%;
+}
+.designed-by {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+    margin-bottom: 5px;
+    text-align: end;
+    text-transform: uppercase;
+}
+.logo {
+    text-align: end;
+}
+.link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    text-decoration: none;
+}
+.company {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-bottom: 11px;
+}
+@media screen and (max-width: 980px) {
+    body {
+        width: 768px;
+        margin: 0 auto;
+    }
+    .container {
+        width: 748px;
+        margin: 0 auto;
+    }
+    .header {
+        background-position: center;
+    }
+    .dreamshare {
+        margin: 95px 0 95px;
+    }
+    .dreamshare-works {
+        font-size: 22px;
+        line-height: 27px;
+
+    }
+    .dreamshare-left {
+        width: 236px;
+        height: 400px;
+        padding: 210px 20px 16px 20px;
+    }
+    .step-head {
+        font-size: 24px;
+        line-height: 14px;
+        margin: 18px 0 10px;
+    }
+    .step-head-2 {
+        margin: 17px 0 9px;
+    }
+    .container-partner {
+        width: 492px;
+    }
+    .partner-head {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .partner-box {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .partner-box1 {
+        width: 236px;
+        margin-bottom: 54pxpx;
+    }
+    .partner-name {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #444444;
+        margin: 17px 0 12px;
+    }
+    .holiday {
+        padding: 94px 0 95px;
+    }
+    .top-left {
+        width: 236px;
+    }
+    .top-center {
+        width: 236px;
+    }
+    .top-right {
+        width: 236px;
+        padding: 0 15px 0 515px;
+    }
+    .center-left {
+        width: 236px;
+    }
+    .center-right {
+        width: 492px;
+    }
+    .bottom-left {
+        width: 492px;
+    }
+    .bottom-right {
+        width: 236px;
+    }
+    .holiday-interest {
+        margin: 43px 0 25px;
+    }
+    .search-form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 99px;
+    }
+    .border {
+        border-top: 2px solid #FF4E50;
+    }
+    .footer {
+        padding: 36px 0 20px;   
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        width: 320px;
+    }
+    .container {
+        width: 300px;
+    }
+    .header {
+        height: 540px;
+        padding: 20px;
+        background-position: center;
+    }
+    .name-dreamshare {
+        text-align: center;
+        margin-top: 153px;
+    }
+    .name {
+        margin-bottom: 0px;
+        display: block;
+    }
+    .registration {
+       margin-top: -170px;
+       display: flex;
+       justify-content: center;
+    }
+    .main-head {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 5.5px;
+        margin-top: 26.5px;
+    }
+    .subtitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding: 0 20px 0 20px;
+    }
+    .search-partner {
+        width: 280px;
+    }
+    .dreamshare {
+        margin: 34px 0 36px;
+    }
+    .dreamshare-works {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .dreamshare-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .dreamshare-left {
+        width: 300px;
+        height: 240px;
+        padding: 69px 30px 16px 20px;
+        margin-bottom: 10px;
+    }
+    .dreamshare-center {
+        padding-top: 100px;
+    }
+    .step-head {
+        line-height: 14px;
+        margin: 18px 0 10px;
+    }
+    .step-head-2 {
+        margin: 17px 0 9px;
+    }
+    .partner-head {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .partner-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 14px;
+    }
+    .partner-box1 {
+        width: 236px;
+        margin-bottom: 16px;
+    }
+    .partner-name {
+        margin: 17px 0 12px;
+    }
+    .other-partner {
+        display: flex;
+        justify-content: center;
+    }
+    .partner-button {
+        width: 280px;
+    }
+    .holiday {
+        padding: 35px 0 35px;
+    }
+    .ideas {
+        margin-bottom: 33px;
+    }
+    .activity-top {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .activity-center {
+        margin-bottom: 0px;
+    }
+    .activity-common {
+        height: 120px;
+    }
+    .top-left {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .top-center {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .top-right {
+        margin-bottom: 10px;
+        width: 300px;
+        padding: 0 47px 0 47px;
+    }
+    .center-left {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .center-right {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .bottom-left {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .bottom-right {
+        width: 300px;
+    }
+    .holiday-interest {
+        margin: 9px 0 15px;
+    }
+    .search-form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0px;
+        margin-bottom: 40px;
+    }
+    .search-text {
+        width: 280px;
+        padding-left: 15px;
+    }
+    .search-button {
+        width: 280px;
+        margin-top: 10px;
+    }
+    .border {
+        border-top: 2px solid #FF4E50;
+    }
+    .footer {
+        padding: 21px 0 22px;   
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .company-name {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 31px;
+    }
+    .company-information {
+        width: 100%;
+        text-align: center;
+    }
+    .company-partner {
+        width: 100%;
+        margin: 6px 0 33px;
+        text-align: center;
+    }
+    .design {
+        width: 100%;
+        text-align: center;
+    }
+    .designed-by {
+        margin-bottom: 7px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .logo {
+        text-align: center;
+    }
+    .link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+        text-decoration: none;
+    }
+    .company {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+        margin-bottom: 11px;
+    }
+    .menu {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .menu-top {
+        display: flex;
+        justify-content: center;
+    }
+    .menu-bottom {
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        margin-right: 5px;
+    }
+}
